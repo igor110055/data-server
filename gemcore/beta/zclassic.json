@@ -1,0 +1,76 @@
+{
+	"coinname" : "Zclassic",
+	"walletversion" : "2.0.3",
+	"detail" : "",
+	"daemonversion" : "2000350",
+	"checksum" : {
+		"windowsdaemon" : "820AF6FC9C8E4A3A6CE56BC9F61124B7",
+		"macdaemon" : "A6327F5ECB4309302DEC33DF20E9B202",
+		"linuxdaemon" : "DFC45A6EBC2DE2FE1CE3F3FD9E354F23"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zclassic-v2.0.4-win.zip",
+	"macdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zclassic-v2.0.5-2-macOS.zip",
+	"Ubuntu-16.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zclassic-v2.0.5-1-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zclassic-v2.0.5-1-linux.zip",
+	"blockchain_noindex": "",
+	"linuxoss" : ["Ubuntu-16.04", "Ubuntu-18.04", "Others"],
+	"blockchain" : {
+		"noindex" : {
+			"zcl_blockchain_noindex.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/zcl_blockchain_noindex.zip.sf-part1",
+			"zcl_blockchain_noindex.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/zcl_blockchain_noindex.zip.sf-part2",
+			"zcl_blockchain_noindex.zip.sf-part3": "https://github.com/Snowgem/Data/releases/download/0.0.1/zcl_blockchain_noindex.zip.sf-part3",
+			"zcl_blockchain_noindex.zip.sf-part4": "https://github.com/Snowgem/Data/releases/download/0.0.1/zcl_blockchain_noindex.zip.sf-part4"
+		},
+		"checksumnoindex": {
+			"zcl_blockchain_noindex.zip.sf-part1": "B575296001F7779623C33D765D8C3E9B",
+			"zcl_blockchain_noindex.zip.sf-part2": "FC0CDBD57BEC7C2DE9E34D0EEE93E337",
+			"zcl_blockchain_noindex.zip.sf-part3": "141612F41668A0D35843B30B6998D527",
+			"zcl_blockchain_noindex.zip.sf-part4": "53E4B6CBC5516B0BD71A3FF397784F90"
+		}
+	},
+	"data" : {
+		"win32" : "\\ZClassic",
+		"linux" : "/.zclassic",
+		"darwin" : "/Library/Application Support/ZClassic"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "zclassicd",
+	"cli" : "zclassic-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"nodes": [
+		"54.37.81.148:8033",
+		"149.28.202.212:8033",
+		"206.189.210.19:8033",
+		"193.70.35.149:8033",
+		"35.156.184.131:8033",
+		"122.175.61.202:8033",
+		"68.195.18.155:8033",
+		"73.20.88.21:8033",
+		"explorer.zcl.zelcore.io"
+	],
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "zclassic.conf",
+	"explorer" : "https://explorer.zcl.zelcore.io/tx/",
+	"rpcport": "8023",
+	"testnet_rpcport": "18023",
+	"starttime": "1479443947",
+	"sticker": "ZCL",
+	"masternode": false,
+	"cointype": "zcash",
+	"lockedcoin": false,
+	"sapling" : true
+}

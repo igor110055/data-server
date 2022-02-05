@@ -1,0 +1,57 @@
+{
+	"coinname" : "BitZec",
+	"walletversion" : "1.0.4",
+	"detail" : "What's new?\n- Support Sapling\n- Add clock at bottom right\n- Backup/Restore wallet button in Settings\n- Reindex/Rescan button in Settings\n- Hide Zero addresses (Address -> Tool -> Hide/Show zero balance)\n- Support Multiple Shield (Addresses -> Select Addresses -> Tool -> Multiple shield)\n- Fix bugs",
+	"daemonversion" : "2000458",
+	"checksum" : {
+		"windowsdaemon" : "ECDE0330B6C6C82F8EAE4E8AD56BCBF5",
+		"macdaemon" : "CD15A7CFBAF361B542312C71DE26BE1D",
+		"linuxdaemon" : "E202712271BD66D7E910200D07BA756D"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/bitzec/bitzec/releases/download/bitzec-v1.1.4/bitzec-1.1.4_win.zip",
+	"macdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/bitzec-v2.0.4-beta4-macOS.zip",
+	"Ubuntu-16.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/bitzec-v2.0.4-beta4-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/bitzec-v2.0.4-beta4-linux.zip",
+	"blockchain_noindex": "https://cdn1.snowgem.org/Bitzec_blockchain_noindex.zip",
+	"blockchain_index": "https://cdn1.snowgem.org/Bitzec_blockchain_index.zip",
+	"blockchain" : {
+		"index" : [
+		],
+		"noindex" : [
+		]
+	},
+	"data" : {
+		"win32" : "\\Bitzec",
+		"linux" : "/.bitzec",
+		"darwin" : "/Library/Application Support/Bitzec"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "bitzecd",
+	"cli" : "bitzec-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params": "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params": "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params": "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "bitzec.conf",
+	"explorer" : "http://35.204.174.237:3001/insight/tx/",
+	"rpcport": "8732",
+	"testnet_rpcport": "18732",
+	"starttime": 1536721921,
+	"sticker": "BZC",
+	"masternode": false,
+	"cointype": "zcash",
+	"lockedcoin": false,
+	"sapling": true
+}

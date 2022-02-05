@@ -1,0 +1,44 @@
+{
+  "coins" : [
+          {
+                  "name" : "Gemlink",
+                  "icon" : "https://i.imgur.com/c4AbEVL.png"
+          },
+          {
+                  "name" : "Zcash",
+                  "icon" : "https://i.imgur.com/NaCsvqB.png"
+          },
+          {
+                  "name": "ZClassic",
+                  "icon": "https://i.imgur.com/twZ4xBU.png"
+          },
+          {
+                  "name" : "BitcoinZ",
+                  "icon" : "https://i.imgur.com/31mE7z4.png"
+          },
+          {
+                  "name": "ZeroClassic",
+                  "icon" : "https://i.imgur.com/0WYERFj.png"
+          },
+          {
+                  "name": "Zero",
+                  "icon" : "https://i.imgur.com/vlrniwE.png"
+          },
+          {
+                  "name": "BZEdge",
+                  "icon" : "https://i.imgur.com/J14SnJa.png"
+          },
+          {
+                  "name": "BitZec",
+                  "icon" : "https://i.imgur.com/0OwXp3h.png"
+          }
+  ],
+  "languageurl": "https://github.com/Snowgem/ModernWallet/releases/download/data/languages.zip",
+  "languagechecksum": "f5e1ab42c7b58b04483c74982df14dcf",
+  "jsmd5": "94956CF16E80E113F6248D7FFE502129",
+  "jsurl": "",
+  "version": {
+          "walletversion" : "2.0.0",
+          "detail": "Version 2.0.0:\nIntroduce Gemlink"
+  }
+}

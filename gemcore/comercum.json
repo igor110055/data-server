@@ -1,0 +1,54 @@
+{
+	"coinname" : "Commercium",
+	"walletversion" : "1.0.1",
+	"detail" : "What's new:\n- add auto start with system\n- add more fiat currencies\n- add transactions chart\n- fix validate address function\n- download blockchain automatically\n- fix bugs\n",
+	"daemonversion" : "1040051",
+	"checksum" : {
+		"windowsdaemon" : "3615AE9BD9E29CD08DFEFF9FB025620B",
+		"macdaemon" : "9562617971DC48CA08E1C6FB77938D01",
+		"linuxdaemon" : "9FB5AD93856BD91D7162840C09F9F0E9"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"windowsdaemonurl" : "https://github.com/CommerciumBlockchain/CommerciumContinuum/releases/download/v1-mw/cmm-c-mw-v2-win64.zip",
+	"macdaemonurl" : "https://github.com/CommerciumBlockchain/CommerciumContinuum/releases/download/v1-mw/cmm-c-mw-v2-darwin.zip",
+	"Ubuntu-16.04" : "https://github.com/CommerciumBlockchain/CommerciumContinuum/releases/download/v1-mw/cmm-c-mw-v2-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/CommerciumBlockchain/CommerciumContinuum/releases/download/v1-mw/cmm-c-mw-v2-linux.zip",
+	"blockchain" : {
+		"index" : {
+		},
+		"noindex" : {
+		}
+	},
+	"data" : {
+		"win32" : "\\Commerciummw",
+		"linux" : "/.commerciumw",
+		"darwin" : "/Library/Application Support/Commerciumw"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "commerciumd",
+	"cli" : "commercium-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "commercium.conf",
+	"explorer" : "https://explorer.commercium.net/tx/",
+	"rpcport": "12020",
+	"testnet_rpcport": "22020",
+	"starttime": "1487500000",
+	"sticker": "CMM",
+	"masternode" : true,
+	"cointype" : "snowgem",
+	"lockedcoin" : true,
+	"sapling" : true
+}

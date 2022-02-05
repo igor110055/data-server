@@ -1,0 +1,59 @@
+{
+	"coinname" : "Zcash",
+	"walletversion" : "1.0.1",
+	"detail" : "What's new:\n- add auto start with system\n- add more fiat currencies\n- add transactions chart\n- fix validate address function\n- download blockchain automatically\n- fix bugs\n",
+	"daemonversion" : "1040051",
+	"checksum" : {
+		"windowsdaemon" : "4943E2217B29C7B10B96AC5D9319EB72",
+		"macdaemon" : "9c8780b965ef98d03a8a0926edb61cbf",
+		"linuxdaemon" : "C79CCC358959E44A8F5F7F72C9C8EC59",
+		"linuxdaemon_18" : "C79CCC358959E44A8F5F7F72C9C8EC59"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zcash-win-3.0.0.zip",
+	"macdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zcash-mac-2.0.0.zip",
+	"Ubuntu-16.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zcash-ubuntu-3.0.0.zip",
+	"Ubuntu-18.04" : "https://github.com/Snowgem/ModernWallet/releases/download/data/zcash-ubuntu-3.0.0.zip",
+	"blockchain_noindex": "https://cdn1.snowgem.org/zcash_blockchain_noindex.zip",
+	"blockchain" : {
+		"index" : [
+		],
+		"noindex" : [
+			"https://github.com/Snowgem/Data/releases/download/0.0.1/zcash_blockchain_noindex.zip.sf-part1",
+			"https://github.com/Snowgem/Data/releases/download/0.0.1/zcash_blockchain_noindex.zip.sf-part2",
+			"https://github.com/Snowgem/Data/releases/download/0.0.1/zcash_blockchain_noindex.zip.sf-part3"
+		]
+	},
+	"data" : {
+		"win32" : "\\Zcash",
+		"linux" : "/.zcash",
+		"darwin" : "/Library/Application Support/Zcash"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "zcashd",
+	"cli" : "zcash-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params": "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params": "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params": "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "zcash.conf",
+	"explorer" : "https://explorer.zcha.in/transactions/",
+	"rpcport": "8232",
+	"testnet_rpcport": "18232",
+	"starttime": "1477641360",
+	"sticker": "ZEC",
+	"masternode": false,
+	"cointype": "zcash",
+	"lockedcoin": false
+}

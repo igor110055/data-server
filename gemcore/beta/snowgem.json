@@ -1,0 +1,105 @@
+{
+	"coinname" : "TENT",
+	"daemonversion" : "3010250",
+	"checksum" : {
+		"windowsdaemon" : "d1c4942fe96b7b1a8f3d7e9768d2100a",
+		"macdaemon" : "b9a0b16dbaa9832772630fd1b4f7c9a7",
+		"linuxdaemon" : "5a2d2961745815695321dae0bf6364d7",
+		"linuxdaemon_18" : "5a2d2961745815695321dae0bf6364d7"
+	},
+	"paramsurl" : "https://github.com/TENTOfficial/TENT-Core/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/TENTOfficial/TENT-Core/releases/latest",
+	"windowsdaemonurl" : "https://github.com/TENTOfficial/TENT/releases/download/Node/tent-win.zip",
+	"macdaemonurl" : "https://github.com/TENTOfficial/TENT/releases/download/Node/tent-mac.zip",
+	"Ubuntu-16.04" : "https://github.com/TENTOfficial/TENT/releases/download/Node/tent-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/TENTOfficial/TENT/releases/download/Node/tent-linux.zip",
+	"blockchain_noindex" : "https://cdn1.snowgem.org/blockchain_noindex.zip",
+	"blockchain_index" : "https://files.equihub.pro/snowgem/blockchain_index.zip",
+	"blockchain" : {
+		"index" : {
+			"blockchain_snowgem_index_879228.zip.sf-part1" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_index_879228.zip.sf-part1",
+			"blockchain_snowgem_index_879228.zip.sf-part2" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_index_879228.zip.sf-part2",
+			"blockchain_snowgem_index_879228.zip.sf-part3" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_index_879228.zip.sf-part3",
+			"blockchain_snowgem_index_879228.zip.sf-part4" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_index_879228.zip.sf-part4",
+			"blockchain_snowgem_index_879228.zip.sf-part5" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_index_879228.zip.sf-part5"
+		},
+		"noindex" : {
+			"blockchain_snowgem_noindex.zip.sf-part1" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part1",
+			"blockchain_snowgem_noindex.zip.sf-part2" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part2",
+			"blockchain_snowgem_noindex.zip.sf-part3" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part3",
+			"blockchain_snowgem_noindex.zip.sf-part4" : "https://github.com/TENTOfficial/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part4"
+		},
+		"checksumindex" : {
+			"blockchain_snowgem_index_879228.zip.sf-part1" : "27661d07fadb427a56e77dc4cba796ef",
+			"blockchain_snowgem_index_879228.zip.sf-part2" : "9267de0dfaaf6b778507b67acb491ac1",
+			"blockchain_snowgem_index_879228.zip.sf-part3" : "2ecfc8e89018d22e653bd424a2edcf31",
+			"blockchain_snowgem_index_879228.zip.sf-part4" : "80a131ffb0f06978efe0bbc69fa01a6c",
+			"blockchain_snowgem_index_879228.zip.sf-part5" : "10dbdf270fc5fc2615d1239d836a96b7"
+		},
+		"checksumnoindex" : {
+			"blockchain_snowgem_noindex.zip.sf-part1" : "135A76FA4D8EB61F3C56A14D6A7C0903",
+			"blockchain_snowgem_noindex.zip.sf-part2" : "B1DA80CF6AC2C598E9875E17CDB7BE58",
+			"blockchain_snowgem_noindex.zip.sf-part3" : "0CCAA71D8524A4CD745CC54B577E87E1",
+			"blockchain_snowgem_noindex.zip.sf-part4" : "40B73EE5B12BF78A53F08DB44044402B"
+		}
+	},
+	"data" : {
+		"win32" : "\\Snowgem",
+		"linux" : "/.snowgem",
+		"darwin" : "/Library/Application Support/Snowgem"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "snowgemd",
+	"cli" : "snowgem-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"popup" : [
+		{
+			"imgUrl" : "https://i.imgur.com/fwGIj42.png",
+			"redirectUrl" : "https://tent.app/about-us/new/march-2021-community-update",
+			"title" : "Move all TENT to transparent addresses till May 17th.",
+			"detail" : "Move all TENT to transparent addresses till May 17th.",
+			"type" : "popup",
+			"name" : "Drop of Private Addresses support"
+		}
+	],
+	"banner" : [
+		{
+			"imgUrl" : "https://i.imgur.com/fwGIj42.png",
+			"redirectUrl" : "https://tent.app/about-us/new/march-2021-community-update",
+			"title" : "Move all TENT to transparent addresses till May 17th.",
+			"detail" : "Move all TENT to transparent addresses till May 17th.",
+			"type" : "popup",
+			"name" : "Drop of Private Addresses support"
+		}
+	],
+	"nodes" : [],
+	"price_field" : true,
+	"noticetimer" : 60000000,
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "snowgem.conf",
+	"explorer" : "https://explorer.snowgem.org/tx/",
+	"rpcport" : "16112",
+	"p2pport" : "16113",
+	"testnet_rpcport" : "26112",
+	"starttime" : 1511111234,
+	"sticker" : "TENT",
+	"masternode" : true,
+	"cointype" : "snowgem",
+	"lockedcoin" : true,
+	"sapling" : true,
+	"shield" : true,
+	"showprivateaddress" : true,
+	"showencryption": true
+}

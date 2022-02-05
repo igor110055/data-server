@@ -1,0 +1,71 @@
+{
+	"coinname" : "Zel",
+	"daemonversion" : "2000458",
+	"checksum" : {
+		"windowsdaemon" : "5FDBF17B12D305228D203CCD8429E00D",
+		"macdaemon" : "",
+		"linuxdaemon" : "",
+		"linuxdaemon_18" : ""
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/zelcash/zelcash/releases/download/v3.1.1/ZelCash-Windows.zip",
+	"macdaemonurl" : "https://github.com/zelcash/zelcash/releases/download/v3.1.1/ZelCash-macOS.tar.gz",
+	"Ubuntu-16.04" : "https://github.com/zelcash/zelcash/releases/download/v3.1.1/ZelCash-Linux.tar.gz",
+	"Ubuntu-18.04" : "https://github.com/zelcash/zelcash/releases/download/v3.1.1/ZelCash-Linux.tar.gz",
+	"blockchain" : {
+		"index" : {
+			"zel_blockchain_index.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/zel_blockchain_index.zip.sf-part1",
+			"zel_blockchain_index.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/zel_blockchain_index.zip.sf-part2"
+		},
+		"noindex" : {
+			"zel_blockchain_noindex.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/zel_blockchain_noindex.zip.sf-part1",
+			"zel_blockchain_noindex.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/zel_blockchain_noindex.zip.sf-part2"
+		},
+		"checksumindex": {
+			"zel_blockchain_index.zip.sf-part1": "BF3506D3BBAFA36DBBFBFCF36A0F8914",
+			"zel_blockchain_index.zip.sf-part2": "22FC0636276E0AD1E747BA3ED7333B43"
+		},
+		"checksumnoindex": {
+			"zel_blockchain_noindex.zip.sf-part1": "3E203EA8AEE06F8EEA3E87270055C323",
+			"zel_blockchain_noindex.zip.sf-part2": "F2271795082BEA91AABC73B79EF5CDDA"
+		}
+	},
+	"data" : {
+		"win32" : "\\zelcash",
+		"linux" : "/.zelcash",
+		"darwin" : "/Library/Application Support/zelcash"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "zelcashd",
+	"cli" : "zelcash-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"popup": [
+	],
+	"banner": [
+	],
+	"nodes": [
+	],
+	"noticetimer": 60000000,
+	"donation_address" : "",
+	"conf_file" : "zelcash.conf",
+	"explorer" : "https://explorer.zel.zelcore.io/tx/",
+	"rpcport" : "16124",
+	"testnet_rpcport" : "26124",
+	"starttime" : 1516980000,
+	"sticker" : "ZEL",
+	"masternode" : false,
+	"cointype" : "zcash",
+	"lockedcoin" : true,
+	"sapling" : true
+}

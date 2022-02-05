@@ -1,0 +1,71 @@
+{
+	"coinname" : "Vidulum",
+	"walletversion" : "1.0.1",
+	"detail" : "",
+	"daemonversion" : "2000456",
+	"checksum" : {
+		"windowsdaemon" : "74548EF35DF7C92920650752D83A8881",
+		"macdaemon" : "3D4665136BDC132283B7691FBBD0156A",
+		"linuxdaemon" : "0FFED43AC8BB7F768F55B7A4DF42837B",
+		"linuxdaemon_18" : "0FFED43AC8BB7F768F55B7A4DF42837B"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/vidulum/vidulum/releases/download/v2.1.0/VDL-Windows.zip",
+	"macdaemonurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/VDL-Mac-2.0.2.zip",
+	"Ubuntu-16.04" : "https://github.com/vidulum/vidulum/releases/download/v2.1.0/VDL-Linux.zip",
+	"Ubuntu-18.04" : "https://github.com/vidulum/vidulum/releases/download/v2.1.0/VDL-Linux.zip",
+	"blockchain_noindex" : "https://files.equihub.pro/vidulum/blockchain_noindex.zip",
+	"blockchain_index" : "https://files.equihub.pro/vidulum/blockchain_index.zip",
+	"blockchain" : {
+		"index" : {
+			"vidulum_blockchain_index.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/vidulum_blockchain_index.zip.sf-part1",
+			"vidulum_blockchain_index.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/vidulum_blockchain_index.zip.sf-part2"
+		},
+		"noindex" : {
+		},
+		"checksumindex": {
+			"vidulum_blockchain_index.zip.sf-part1": "535CE286BD9842F2EF1694C77DD4860D",
+			"vidulum_blockchain_index.zip.sf-part2": "9213E5A1B7E55EBEADB796979FDD71D3"
+		},
+		"checksumnoindex": {
+		}
+	},
+	"data" : {
+		"win32" : "\\Vidulum",
+		"linux" : "/.vidulum",
+		"darwin" : "/Library/Application Support/Vidulum"
+	},
+	"params" : {
+		"win32" : "\\VidulumParams",
+		"linux" : "/.vidulum-params",
+		"darwin" : "/Library/Application Support/VidulumParams"
+	},
+	"daemon" : "vidulumd",
+	"cli" : "vidulum-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"popup": [
+	],
+	"banner": [
+	],
+	"nodes": [
+	],
+	"noticetimer": 60000000,
+	"donation_address" : "",
+	"conf_file" : "vidulum.conf",
+	"explorer" : "https://explorer.vidulum.app/tx/",
+	"rpcport" : "17676",
+	"testnet_rpcport" : "27676",
+	"starttime" : 1539727200,
+	"sticker" : "VDL",
+	"masternode" : true,
+	"cointype" : "snowgem",
+	"lockedcoin" : true,
+	"sapling" : true
+}

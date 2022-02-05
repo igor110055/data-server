@@ -1,0 +1,22 @@
+{
+	"xsg" : {
+		"url" : "https://explorer.snowgem.org",
+		"api" : "https://explorer.snowgem.org/api",
+		"type" : 0
+	},
+	"ltc": {
+		"url" : "https://insight.litecore.io",
+		"api" : "https://insight.litecore.io/api",
+		"type" : 0
+	},
+	"dash": {
+		"url" : "https://insight.dash.org/insight",
+		"api" : "https://insight.dash.org/api",
+		"type" : 0
+	},
+	"zcash": {
+		"url" : "https://explorer.z.cash/",
+		"api" : "https://explorer.z.cash/api",
+		"type" : 0
+	}
+}

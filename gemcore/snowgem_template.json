@@ -1,0 +1,85 @@
+{
+	"coinname" : "SnowGem",
+	"walletversion" : "1.0.4",
+	"detail" : "What's new?\n- Support Sapling\n- Add clock at bottom right\n- Backup/Restore wallet button in Settings\n- Reindex/Rescan button in Settings\n- Hide Zero addresses (Address -> Tool -> Hide/Show zero balance)\n- Support Multiple Shield (Addresses -> Select Addresses -> Tool -> Multiple shield)\n- Fix bugs",
+	"daemonversion" : "2000458",
+	"checksum" : {
+		"windowsdaemon" : "8F474277090C19E2F503DEB0DF8A334D",
+		"macdaemon" : "7F7D84FBBEEA17A8E539DE1FA6BD691B",
+		"linuxdaemon" : "F4334A194CCA6619BC264C9E33228EC4",
+		"linuxdaemon_18" : "5CA456C9008F8F08C0F9C11129326115"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/Snowgem/Snowgem/releases/download/v3000456-20190726/snowgem-win-3000456-20190726.zip",
+	"macdaemonurl" : "https://github.com/Snowgem/Snowgem/releases/download/v3000456-20190726/snowgem-mac-3000456-20190726.zip",
+	"Ubuntu-16.04" : "https://github.com/Snowgem/Snowgem/releases/download/v3000456-20190726/snowgem-ubuntu16.04-3000456-20190728.zip",
+	"Ubuntu-18.04" : "https://github.com/Snowgem/Snowgem/releases/download/v3000456-20190726/snowgem-ubuntu18.04-3000456-20190726.zip",
+	"blockchain_noindex" : "https://cdn1.snowgem.org/blockchain_noindex.zip",
+	"blockchain_index" : "https://cdn1.snowgem.org/blockchain_index.zip",
+	"blockchain" : {
+		"index" : {
+			"blockchain_snowgem_index_766300.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_index_766300.zip.sf-part1",
+			"blockchain_snowgem_index_766300.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_index_766300.zip.sf-part2",
+			"blockchain_snowgem_index_766300.zip.sf-part3": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_index_766300.zip.sf-part3",
+			"blockchain_snowgem_index_766300.zip.sf-part4":  "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_index_766300.zip.sf-part4"
+		},
+		"noindex" : {
+			"blockchain_snowgem_noindex.zip.sf-part1": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part1",
+			"blockchain_snowgem_noindex.zip.sf-part2": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part2",
+			"blockchain_snowgem_noindex.zip.sf-part3": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part3",
+			"blockchain_snowgem_noindex.zip.sf-part4": "https://github.com/Snowgem/Data/releases/download/0.0.1/blockchain_snowgem_noindex.zip.sf-part4"
+		},
+		"checksumindex": {
+			"blockchain_snowgem_index_766300.zip.sf-part1": "9f9e9120a5de59b6ef8b50a9c249bbf6",
+			"blockchain_snowgem_index_766300.zip.sf-part2": "2f4c694cdc51211cbcd7586374f52bcb",
+			"blockchain_snowgem_index_766300.zip.sf-part3": "e96eed11525a6e881aa34e67587311a6",
+			"blockchain_snowgem_index_766300.zip.sf-part4": "CCA72F221A601C23714E74E86F027C8C"
+		},
+		"checksumnoindex": {
+			"blockchain_snowgem_noindex.zip.sf-part1": "135A76FA4D8EB61F3C56A14D6A7C0903",
+			"blockchain_snowgem_noindex.zip.sf-part2": "B1DA80CF6AC2C598E9875E17CDB7BE58",
+			"blockchain_snowgem_noindex.zip.sf-part3": "0CCAA71D8524A4CD745CC54B577E87E1",
+			"blockchain_snowgem_noindex.zip.sf-part4": "40B73EE5B12BF78A53F08DB44044402B"
+		}
+	},
+	"data" : {
+		"win32" : "\\Snowgem",
+		"linux" : "/.snowgem",
+		"darwin" : "/Library/Application Support/Snowgem"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "snowgemd",
+	"cli" : "snowgem-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"popup": [
+	],
+	"banner": [
+	],
+	"nodes": [
+	],
+	"noticetimer": 60000000,
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "snowgem.conf",
+	"explorer" : "https://explorer.snowgem.org/tx/",
+	"rpcport" : "16112",
+	"testnet_rpcport" : "26112",
+	"starttime" : 1511111234,
+	"sticker" : "XSG",
+	"masternode" : true,
+	"cointype" : "snowgem",
+	"lockedcoin" : true,
+	"sapling" : true
+}

@@ -1,0 +1,58 @@
+{
+	"coinname" : "Ycash",
+	"walletversion" : "1.0.1",
+	"detail" : "What's new:\n- add auto start with system\n- add more fiat currencies\n- add transactions chart\n- fix validate address function\n- download blockchain automatically\n- fix bugs\n",
+	"daemonversion" : "1040051",
+	"checksum" : {
+		"windowsdaemon" : "47A84A3EC4937C33DD2B53782084FD31",
+		"macdaemon" : "75602E0C773BD54E6A22253BCF135A55",
+		"linuxdaemon" : "3C36245CA718EF618CB88765A03F160A",
+		"linuxdaemon_18" : "3C36245CA718EF618CB88765A03F160A"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/ycashfoundation/ycash/releases/download/v2.1.1-3/Windows-binaries-ycash-v2.1.1-3.zip",
+	"macdaemonurl" : "https://github.com/ycashfoundation/ycash/releases/download/v2.1.1-3/macOS-binaries-ycash-v2.1.1-3.zip",
+	"Ubuntu-16.04" : "",
+	"Ubuntu-18.04" : "",
+	"blockchain_noindex": "",
+	"blockchain" : {
+		"index" : [
+		],
+		"noindex" : [
+		]
+	},
+	"data" : {
+		"win32" : "\\Ycash",
+		"linux" : "/.ycash",
+		"darwin" : "/Library/Application Support/Ycash"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "ycashd",
+	"cli" : "ycash-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params": "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params": "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params": "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "t1NsyVyH13Q13hmMpP1XSdsE1H7Kha2LDA7",
+	"conf_file" : "ycash.conf",
+	"explorer" : "https://yec.safe.trade/transactions/",
+	"rpcport": "8832",
+	"testnet_rpcport": "18832",
+	"starttime": "1477641360",
+	"sticker": "YEC",
+	"masternode": false,
+	"cointype": "zcash",
+	"lockedcoin": false
+}
+
+

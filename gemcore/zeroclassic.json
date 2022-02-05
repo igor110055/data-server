@@ -1,0 +1,59 @@
+{
+	"coinname" : "ZeroClassic",
+	"checksum" : {
+		"windowsdaemon" : "AE708FB9B2492265E075CFE1E4DF21DC",
+		"macdaemon" : "AEA56C3826CF733ABF4D9FD278D9BA9D",
+		"linuxdaemon" : "9D5358B0F3EF09C2AE61D61EAAF873A0",
+		"linuxdaemon_18" : "9D5358B0F3EF09C2AE61D61EAAF873A0"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/zeroclassic/ZeroClassic/releases/download/v2.1.1-1/ZeroClassic-2.1.1-1-win.zip",
+	"macdaemonurl" : "https://github.com/zeroclassic/ZeroClassic/releases/download/v2.1.1-1/ZeroClassic-2.1.1-1-mac.zip",
+	"Ubuntu-16.04" : "https://github.com/zeroclassic/ZeroClassic/releases/download/v2.1.1-1/ZeroClassic-2.1.1-1-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/zeroclassic/ZeroClassic/releases/download/v2.1.1-1/ZeroClassic-2.1.1-1-linux.zip",
+	"blockchain_noindex" : "https://cdn1.snowgem.org/zeroclassic_blockchain_noindex.zip",
+	"blockchain" : {
+		"index" : {
+		},
+		"noindex" : {
+		},
+		"checksumindex": {
+		},
+		"checksumnoindex": {
+		}
+	},
+	"blockchain_index" : "",
+	"data" : {
+		"win32" : "\\ZeroClassic",
+		"linux" : "/.zeroclassic",
+		"darwin" : "/Library/Application Support/ZeroClassic"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcashparams",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "zerod",
+	"cli" : "zero-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "zero.conf",
+	"explorer" : "http://167.114.3.131:3001/tx/",
+	"rpcport" : "23901",
+	"testnet_rpcport" : "23902",
+	"starttime" : 1487500000,
+	"sticker" : "ZERC",
+	"masternode" : false,
+	"cointype" : "zcash",
+	"lockedcoin" : false,
+	"sapling" : true
+}

@@ -1,0 +1,60 @@
+{
+	"coinname" : "BZEdge",
+	"checksum" : {
+		"windowsdaemon" : "4FEABA91E1422DF2A53A7E51281BDEC2",
+		"macdaemon" : "20BADE1E6F84EC24D70E1680798546EF",
+		"linuxdaemon" : "0A040AE9C5CEA2F460BD2EDD416A3C5C",
+		"linuxdaemon_18" : "0A040AE9C5CEA2F460BD2EDD416A3C5C"
+	},
+	"paramsurl" : "https://github.com/Snowgem/ModernWallet/releases/download/data/ZcashParams.zip",
+	"walleturl" : "https://github.com/Snowgem/ModernWallet/releases/latest",
+	"windowsdaemonurl" : "https://github.com/bze-alphateam/bzedge/releases/download/v4.1.1/bzedge-4.1.1-windows.zip",
+	"macdaemonurl" : "https://github.com/bze-alphateam/bzedge/releases/download/v4.1.1/bzedge-4.1.1-macos.zip",
+	"Ubuntu-16.04" : "https://github.com/bze-alphateam/bzedge/releases/download/v4.1.1/bzedge-4.1.1-linux.zip",
+	"Ubuntu-18.04" : "https://github.com/bze-alphateam/bzedge/releases/download/v4.1.1/bzedge-4.1.1-linux.zip",
+	"blockchain_noindex" : "https://cdn1.snowgem.org/Bzedge_blockchain_noindex.zip",
+	"blockchain_index" : "https://bootstrap.getbze.com/bootstrap_txindex_latest.zip",
+	"blockchain" : {
+		"index" : {
+		},
+		"noindex" : {
+		},
+		"checksumindex": {
+		},
+		"checksumnoindex": {
+		}
+	},
+	"data" : {
+		"win32" : "\\Bzedge",
+		"linux" : "/.bzedge",
+		"darwin" : "/Library/Application Support/Bzedge"
+	},
+	"params" : {
+		"win32" : "\\ZcashParams",
+		"linux" : "/.zcash-params",
+		"darwin" : "/Library/Application Support/ZcashParams"
+	},
+	"daemon" : "bzedged",
+	"cli" : "bzedge-cli",
+	"paramfiles" : {
+		"sprout-proving.key" : "af23e521697ed69d8b8a6b9c53e48300",
+		"sprout-verifying.key" : "21e8b499aa84b5920ca0cea260074f34",
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
+	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
+	"donation_address" : "",
+	"conf_file" : "bzedge.conf",
+	"explorer" : "https://explorer.getbze.com/tx/",
+	"rpcport" : "1980",
+	"p2pport" : "1990",
+	"testnet_rpcport" : "1980",
+	"starttime" : 1478403829,
+	"sticker" : "BZE",
+	"masternode" : true,
+	"cointype" : "zcash",
+	"lockedcoin" : true,
+	"sapling" : true
+}
