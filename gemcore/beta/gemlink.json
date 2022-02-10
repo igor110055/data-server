@@ -4,7 +4,7 @@
 	"checksum" : {
 		"windowsdaemon" : "AF5616AB043BB444F926244235004625",
 		"macdaemon" : "3DD41BC5E699D8DFB2283EF071518F56",
-		"linuxdaemon_20" : "2541473FD8E796E94D233D2DF3FD35CF"
+		"linuxdaemon_20" : "122D2E2AF1BAA8FC529C0BBFE2AFF013"
 	},
 	"paramsurl" : "https://github.com/gemlink/gemlink/releases/download/Node/zcashparams.zip",
 	"walleturl" : "https://github.com/gemlink/GemCore/releases/latest",
