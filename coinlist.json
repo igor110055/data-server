@@ -34,11 +34,11 @@
           }
   ],
   "languageurl": "https://github.com/gemlink/GemCore/releases/download/data/languages.zip",
-  "languagechecksum": "C56BA458C00D759C5B45A421AB5336F0",
+  "languagechecksum": "49F0E196AEA3611869A84BD7CEE4DBF5",
   "jsmd5": "94956CF16E80E113F6248D7FFE502129",
   "jsurl": "",
   "version": {
-          "walletversion" : "2.0.0",
-          "detail": "Version 2.0.0:\nIntroduce Gemlink"
+          "walletversion" : "2.0.1",
+          "detail": "Version 2.0.1:\nUpdate images and text"
   }
 }
