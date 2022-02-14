@@ -11,6 +11,7 @@
 	"windowsdaemonurl" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
 	"macdaemonurl" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
 	"Ubuntu-20.04" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
+	"blockchain_file": "http://bc.gemlink.org/bc.txt",
 	"blockchain_noindex" : "",
 	"blockchain_index" : "",
 	"blockchain" : {
