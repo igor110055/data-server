@@ -2,9 +2,9 @@
 	"coinname" : "Gemlink",
 	"daemonversion" : "4010250",
 	"checksum" : {
-		"windowsdaemon" : "3594D34438682E37414445D3D4F0CCA1",
+		"windowsdaemon" : "710FAE5892FD645A715A339BBE471432",
 		"macdaemon" : "9B83E3C8FC727F13A506D7F8D8427480",
-		"linuxdaemon_20" : "EF405CE1E67095725EEAD8F40E856D2F"
+		"linuxdaemon_20" : "A717C3DC822570138BCEF3752E5FFC54"
 	},
 	"paramsurl" : "https://github.com/gemlink/gemlink/releases/download/Node/zcashparams.zip",
 	"walleturl" : "https://github.com/gemlink/GemCore/releases/latest",
