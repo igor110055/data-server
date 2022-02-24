@@ -39,7 +39,7 @@
         "jsurl": "",
         "version": {
                 "walletversion" : "2.0.3",
-                "detail": "Version 2.0.3:\n- Add send from public address option\n- Fix start masternode issue\n- Select outputs from the list to config mn easier\n- increase performance"
+                "detail": "What's new:\n- Add send from public address option\n- Fix start masternode issue\n- Select outputs from the list to config mn easier (in masternode config page)\n- Increase wallet performance"
         }
       }
       
