@@ -38,8 +38,8 @@
         "jsmd5": "94956CF16E80E113F6248D7FFE502129",
         "jsurl": "",
         "version": {
-                "walletversion" : "2.0.2",
-                "detail": "Version 2.0.2:\nUpdate new version"
+                "walletversion" : "2.0.3",
+                "detail": "Version 2.0.3:\n- Add send from public address option\n- Fix start masternode issue\n- Select outputs from the list to config mn easier\n- increase performance"
         }
       }
       
