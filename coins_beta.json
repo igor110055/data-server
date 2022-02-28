@@ -33,8 +33,8 @@
                         "icon" : "https://i.imgur.com/0OwXp3h.png"
                 }
         ],
-        "languageurl": "https://github.com/gemlink/GemCore/releases/download/data/languages.zip",
-        "languagechecksum": "40BA73FA423FFC1A4223CD28EA0B7092",
+        "languageurl": "https://github.com/gemlink/GemCore/releases/download/data/language.zip",
+        "languagechecksum": "4B96CC5D168C314BDD7EC7E47678BB1E",
         "jsmd5": "94956CF16E80E113F6248D7FFE502129",
         "jsurl": "",
         "version": {
