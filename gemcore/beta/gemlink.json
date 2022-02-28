@@ -24,6 +24,45 @@
 		"checksumnoindex" : {
 		}
 	},
+	"paramfiles" : {
+		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
+		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
+		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
+	},
+	"daemonFiles": [
+		{
+			"name": "win32",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+			"checksum": "D819F03A83D4890CA87D777E8811B6E4"
+		},
+		{
+			"name": "ubuntu20",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
+			"checksum": "119AF6074F48857923BFD17AD5D5C1C1"
+		},
+		{
+			"name": "mac",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
+			"checksum": "211DB5CF5BD536376E5579A73B1F65D6"
+		}
+	],
+	"paramFiles": [
+		{
+			"name": "sapling-output.params",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+			"checksum": "924DAF81B87A81BBBB9C7D18562046C8"
+		},
+		{
+			"name": "sapling-spend.params",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+			"checksum": "0F44C12EF115AE019DECF18ADE583B20"
+		},
+		{
+			"name": "sprout-groth16.params",
+			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+			"checksum": "00F0CBFC8651EA4003EEA5F627B0CD73"
+		}
+	],
 	"data" : {
 		"win32" : "\\Gemlink",
 		"linux" : "/.gemlink",
@@ -36,11 +75,6 @@
 	},
 	"daemon" : "gemlinkd",
 	"cli" : "gemlink-cli",
-	"paramfiles" : {
-		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
-		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
-		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
-	},
 	"popup" : [
 	],
 	"banner" : [
