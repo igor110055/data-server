@@ -31,19 +31,22 @@
 	},
 	"daemonFiles": [
 		{
-			"name": "win32",
+			"os": "win32",
 			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
-			"checksum": "D819F03A83D4890CA87D777E8811B6E4"
+			"checksum": "D819F03A83D4890CA87D777E8811B6E4",
+			"type": "win32"
 		},
 		{
-			"name": "ubuntu20",
+			"os": "ubuntu20",
 			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
-			"checksum": "119AF6074F48857923BFD17AD5D5C1C1"
+			"checksum": "119AF6074F48857923BFD17AD5D5C1C1",
+			"type": "linux"
 		},
 		{
-			"name": "mac",
+			"os": "darwin",
 			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
-			"checksum": "211DB5CF5BD536376E5579A73B1F65D6"
+			"checksum": "211DB5CF5BD536376E5579A73B1F65D6",
+			"type": "mac"
 		}
 	],
 	"paramFiles": [
