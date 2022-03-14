@@ -137,14 +137,14 @@ function calculateSupplyNew (blockHeight) {
 function getMNInfo(callback){
   data = {};
   curlData(user, password, port, "listmasternodes", [], function(mnlist){
-    data.mnlist = mnlist.result.result;
-    data.totalmn = data.mnlist.filter(function(item){
+    data.totalmn = mnlist.result.result.filter(function(item){
       return item.status == "ENABLED"
     }).length;
     data.firstpayment = Math.floor(data.totalmn * 2.6);
     curlData(user, password, port, "getinfo", [], function(info){
       data.circulating = calculateSupplyNew(info.result.result.blocks);
       data.maxsupply = 160000000;
+      data.mnlist = mnlist.result.result;
       callback(data);
     })
   })
