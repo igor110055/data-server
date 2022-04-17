@@ -2,6 +2,7 @@
   "languageurl": "https://github.com/gemlink/GemCore/releases/download/data/language.zip",
   "languagechecksum": "4B96CC5D168C314BDD7EC7E47678BB1E",
   "version": {
+    "url": "https://github.com/gemlink/GemCore/releases/download/latest",
     "walletversion": "2.0.3",
     "detail": "What's new:\n- Add send from public address option\n- Fix start masternode issue\n- Select outputs from the list to config mn easier (in masternode config page)\n- Increase wallet performance"
   }
