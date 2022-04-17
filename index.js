@@ -43,13 +43,22 @@ app.use(cors());
 
 var coinsList = {}
 var coinsListBeta = {}
-
+var version = {}
+var versionBeta = {}
 if (fs.existsSync("coinlist.json")) {
   coinsList = getJson("coinlist.json");
 }
 if (fs.existsSync("coins_beta.json")) {
   coinsListBeta = getJson("coins_beta.json");
 }
+
+if (fs.existsSync("version.json")) {
+  version = getJson("version.json");
+}
+if (fs.existsSync("version_beta.json")) {
+  versionBeta = getJson("version_beta.json");
+}
+
 
 app.get("/getcoins", (req, res) => { // mongoDB
   res.json(coinsList);
@@ -77,6 +86,16 @@ app.get("/gemcore/beta", (req, res) => { // mongoDB
     res.json(data);
     res.end();
   }
+})
+
+app.get("/getversion", (req, res) => { // mongoDB
+  res.json(version);
+  res.end();
+})
+
+app.get("/getversionbeta", (req, res) => { // mongoDB
+  res.json(versionBeta);
+  res.end();
 })
 
 app.get("/chaininfo", (req, res) => { // mongoDB
