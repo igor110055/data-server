@@ -1,133 +1,127 @@
 {
-	"coinname" : "Gemlink",
-	"daemonversion" : "4010250",
-	"checksum" : {
-		"windowsdaemon" : "D819F03A83D4890CA87D777E8811B6E4",
-		"macdaemon" : "211DB5CF5BD536376E5579A73B1F65D6",
-		"linuxdaemon_20" : "119AF6074F48857923BFD17AD5D5C1C1"
-	},
-	"paramsurl" : "https://github.com/gemlink/gemlink/releases/download/Node/zcashparams.zip",
-	"walleturl" : "https://github.com/gemlink/GemCore/releases/latest",
-	"windowsdaemonurl" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
-	"macdaemonurl" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
-	"Ubuntu-20.04" : "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
-	"blockchain_file": "http://bc.gemlink.org/bc.txt",
-	"blockchain_noindex" : "",
-	"blockchain_index" : "",
-	"blockchain" : {
-		"index" : {
-		},
-		"noindex" : {
-		},
-		"checksumindex" : {
-		},
-		"checksumnoindex" : {
-		}
-	},
-	"paramfiles" : {
-		"sapling-output.params" : "924daf81b87a81bbbb9c7d18562046c8",
-		"sapling-spend.params" : "0f44c12ef115ae019decf18ade583b20",
-		"sprout-groth16.params" : "00f0cbfc8651ea4003eea5f627b0cd73"
-	},
-	"daemonFiles": [
-		{
-			"os": "win32",
-			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
-			"checksum": "D819F03A83D4890CA87D777E8811B6E4",
-			"type": "win32"
-		},
-		{
-			"os": "ubuntu20",
-			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
-			"checksum": "119AF6074F48857923BFD17AD5D5C1C1",
-			"type": "linux"
-		},
-		{
-			"os": "darwin",
-			"url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
-			"checksum": "211DB5CF5BD536376E5579A73B1F65D6",
-			"type": "mac"
-		}
-	],
-	"paramFiles": [
-		{
-			"name": "sapling-output.params",
-			"url": "https://github.com/gemlink/GemCore/releases/download/data/sapling-output.params",
-			"checksum": "924DAF81B87A81BBBB9C7D18562046C8"
-		},
-		{
-			"name": "sapling-spend.params",
-			"url": "https://github.com/gemlink/GemCore/releases/download/data/sapling-spend.params",
-			"checksum": "0F44C12EF115AE019DECF18ADE583B20"
-		},
-		{
-			"name": "sprout-groth16.params",
-			"url": "https://github.com/gemlink/GemCore/releases/download/data/sprout-groth16.params",
-			"checksum": "00F0CBFC8651EA4003EEA5F627B0CD73"
-		}
-	],
-	"dataLocation" : [
-		{
-			"key": "win32",
-			"value": "Gemlink"
-		},
-		{
-			"key": "linux",
-			"value": ".gemlink"
-		},
-		{
-			"key": "darwin",
-			"value": "Library/Application Support/Gemlink"
-		}
-	],
-	"paramsLocation" : [
-		{
-			"key": "win32",
-			"value": "ZcashParams"
-		},
-		{
-			"key": "linux",
-			"value": ".zcash-params"
-		},
-		{
-			"key": "darwin",
-			"value": "Library/Application Support/ZcashParams"
-		}
-	],
-	"data" : {
-		"win32" : "\\Gemlink",
-		"linux" : "/.gemlink",
-		"darwin" : "/Library/Application Support/Gemlink"
-	},
-	"params" : {
-		"win32" : "\\ZcashParams",
-		"linux" : "/.zcash-params",
-		"darwin" : "/Library/Application Support/ZcashParams"
-	},
-	"daemon" : "gemlinkd",
-	"cli" : "gemlink-cli",
-	"popup" : [
-	],
-	"banner" : [
-	],
-	"nodes" : [],
-	"price_field" : true,
-	"noticetimer" : 60000000,
-	"verifyingKeyMD5" : "21e8b499aa84b5920ca0cea260074f34",
-	"provingKeyMD5" : "af23e521697ed69d8b8a6b9c53e48300",
-	"donation_address" : "",
-	"conf_file" : "gemlink.conf",
-	"explorer" : "https://explorer.gemlink.org/tx/",
-	"rpcport" : "16112",
-	"p2pport" : "16113",
-	"testnet_rpcport" : "26112",
-	"starttime" : 1511111234,
-	"sticker" : "GLINK",
-	"masternode" : true,
-	"cointype" : "gemlink",
-	"lockedcoin" : true,
-	"sapling" : true,
-	"shield" : true,
-	"showprivateaddress" : true,
-	"showencryption": false
+  "coinname": "Gemlink",
+  "daemonversion": "4010250",
+  "checksum": {
+    "windowsdaemon": "D819F03A83D4890CA87D777E8811B6E4",
+    "macdaemon": "211DB5CF5BD536376E5579A73B1F65D6",
+    "linuxdaemon_20": "119AF6074F48857923BFD17AD5D5C1C1"
+  },
+  "paramsurl": "https://github.com/gemlink/gemlink/releases/download/Node/zcashparams.zip",
+  "walleturl": "https://github.com/gemlink/GemCore/releases/latest",
+  "windowsdaemonurl": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+  "macdaemonurl": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
+  "Ubuntu-20.04": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
+  "blockchain_file": "http://bc.gemlink.org/bc.txt",
+  "blockchain_noindex": "",
+  "blockchain_index": "",
+  "blockchain": {
+    "index": {},
+    "noindex": {},
+    "checksumindex": {},
+    "checksumnoindex": {}
+  },
+  "paramfiles": {
+    "sapling-output.params": "924daf81b87a81bbbb9c7d18562046c8",
+    "sapling-spend.params": "0f44c12ef115ae019decf18ade583b20",
+    "sprout-groth16.params": "00f0cbfc8651ea4003eea5f627b0cd73"
+  },
+  "daemonFiles": [
+    {
+      "os": "win32",
+      "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
+      "checksum": "D819F03A83D4890CA87D777E8811B6E4",
+      "type": "win32"
+    },
+    {
+      "os": "ubuntu20",
+      "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
+      "checksum": "119AF6074F48857923BFD17AD5D5C1C1",
+      "type": "linux"
+    },
+    {
+      "os": "darwin",
+      "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
+      "checksum": "211DB5CF5BD536376E5579A73B1F65D6",
+      "type": "mac"
+    }
+  ],
+  "paramFiles": [
+    {
+      "name": "sapling-output.params",
+      "url": "https://github.com/gemlink/GemCore/releases/download/data/sapling-output.params",
+      "checksum": "924DAF81B87A81BBBB9C7D18562046C8"
+    },
+    {
+      "name": "sapling-spend.params",
+      "url": "https://github.com/gemlink/GemCore/releases/download/data/sapling-spend.params",
+      "checksum": "0F44C12EF115AE019DECF18ADE583B20"
+    },
+    {
+      "name": "sprout-groth16.params",
+      "url": "https://github.com/gemlink/GemCore/releases/download/data/sprout-groth16.params",
+      "checksum": "00F0CBFC8651EA4003EEA5F627B0CD73"
+    }
+  ],
+  "dataLocation": [
+    {
+      "key": "win32",
+      "value": "Gemlink"
+    },
+    {
+      "key": "linux",
+      "value": ".gemlink"
+    },
+    {
+      "key": "darwin",
+      "value": "Library/Application Support/Gemlink"
+    }
+  ],
+  "paramsLocation": [
+    {
+      "key": "win32",
+      "value": "ZcashParams"
+    },
+    {
+      "key": "linux",
+      "value": ".zcash-params"
+    },
+    {
+      "key": "darwin",
+      "value": "Library/Application Support/ZcashParams"
+    }
+  ],
+  "data": {
+    "win32": "\\Gemlink",
+    "linux": "/.gemlink",
+    "darwin": "/Library/Application Support/Gemlink"
+  },
+  "params": {
+    "win32": "\\ZcashParams",
+    "linux": "/.zcash-params",
+    "darwin": "/Library/Application Support/ZcashParams"
+  },
+  "daemon": "gemlinkd",
+  "cli": "gemlink-cli",
+  "popup": [],
+  "banner": [],
+  "nodes": [],
+  "price_field": true,
+  "noticetimer": 60000000,
+  "verifyingKeyMD5": "21e8b499aa84b5920ca0cea260074f34",
+  "provingKeyMD5": "af23e521697ed69d8b8a6b9c53e48300",
+  "donation_address": "",
+  "conf_file": "gemlink.conf",
+  "explorer": "https://explorer.gemlink.org/tx/",
+  "rpcport": "16112",
+  "p2pport": "16113",
+  "testnet_rpcport": "26112",
+  "starttime": 1511111234,
+  "sticker": "GLINK",
+  "masternode": true,
+  "cointype": "gemlink",
+  "lockedcoin": true,
+  "sapling": true,
+  "shield": false,
+  "showprivateaddress": true,
+  "showencryption": true
 }
