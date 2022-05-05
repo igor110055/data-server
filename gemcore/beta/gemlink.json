@@ -121,7 +121,7 @@
   "cointype": "gemlink",
   "lockedcoin": true,
   "sapling": true,
-  "shield": false,
+  "shield": true,
   "showprivateaddress": true,
   "showencryption": true
 }
