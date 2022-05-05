@@ -29,19 +29,19 @@
     {
       "os": "win32",
       "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-windows.zip",
-      "checksum": "D819F03A83D4890CA87D777E8811B6E4",
+      "checksum": "060DC08B13421343F73A293B51405309",
       "type": "win32"
     },
     {
       "os": "ubuntu20",
       "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-ubuntu.zip",
-      "checksum": "119AF6074F48857923BFD17AD5D5C1C1",
+      "checksum": "FE163BC3D19633A7CC730030A5508549",
       "type": "linux"
     },
     {
       "os": "darwin",
       "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
-      "checksum": "211DB5CF5BD536376E5579A73B1F65D6",
+      "checksum": "76734877F823A8920C555D8A0FC5CAF2",
       "type": "darwin"
     }
   ],
