@@ -42,7 +42,7 @@
       "os": "darwin",
       "url": "https://github.com/gemlink/gemlink/releases/download/Node/gemlink-mac.zip",
       "checksum": "211DB5CF5BD536376E5579A73B1F65D6",
-      "type": "mac"
+      "type": "darwin"
     }
   ],
   "paramFiles": [
