@@ -103,6 +103,18 @@ app.get("/chaininfo", (req, res) => { // mongoDB
   res.end();
 })
 
+app.get("/gemlink/explorers", (req, res) => { // mongoDB
+  var data = getJson("explorers.json");
+    res.json(data);
+    res.end();
+})
+
+app.get("/gemlink/explorersbeta", (req, res) => { // mongoDB
+  var data = getJson("explorersbeta.json");
+    res.json(data);
+    res.end();
+})
+
 function getJson(file) {
   try {
     var text = fs.readFileSync(file, "utf8");

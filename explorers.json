@@ -1,0 +1,105 @@
+[
+  {
+    "name": "ltc",
+    "url": "https://ltc1.trezor.io/",
+    "api": "https://ltc1.trezor.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "ltc",
+    "url": "https://blockbook-litecoin.binancechain.io/",
+    "api": "https://blockbook-litecoin.binancechain.io/api",
+    "type": 1,
+    "priority": 2
+  },
+  {
+    "name": "dash",
+    "url": "https://insight.dash.org/insight",
+    "api": "https://insight.dash.org/api",
+    "type": 0,
+    "priority": 1
+  },
+  {
+    "name": "zec",
+    "url": "https://zec1.trezor.io/",
+    "api": "https://zec1.trezor.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "dgb",
+    "url": "https://dgb1.trezor.io/",
+    "api": "https://dgb1.trezor.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "btcz",
+    "url": "https://explorer.btcz.rocks/",
+    "api": "https://explorer.btcz.rocks/api",
+    "type": 0
+  },
+  {
+    "name": "btc",
+    "url": "https://btc1.trezor.io/",
+    "api": "https://btc1.trezor.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "bsv",
+    "url": "https://bchsvexplorer.com/",
+    "api": "https://bchsvexplorer.com/api",
+    "type": 1
+  },
+  {
+    "name": "flux",
+    "url": "https://explorer.zel.cash/",
+    "api": "https://explorer.zel.cash/api",
+    "type": 0
+  },
+  {
+    "name": "zer",
+    "url": "https://insight.zerocurrency.io/insight/",
+    "api": "https://insight.zerocurrency.io/insight-api-zero",
+    "type": 0
+  },
+  {
+    "name": "doge",
+    "url": "https://doge1.trezor.io/",
+    "api": "https://doge1.trezor.io/api",
+    "type": 1
+  },
+  {
+    "name": "eth",
+    "url": "https://etherscan.io/",
+    "api": "https://api.etherscan.io/api",
+    "api_key": "XRAQMDEPMDU4Z2WNTPS7QX1NIG565RGPQG"
+  },
+  {
+    "name": "ethtoken",
+    "url": "https://etherscan.io/",
+    "api": "https://api.etherscan.io/api",
+    "api_key": "XRAQMDEPMDU4Z2WNTPS7QX1NIG565RGPQG"
+  },
+  {
+    "name": "bsc",
+    "url": "https://bscscan.com/",
+    "api": "https://api.bscscan.com/api",
+    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
+  },
+  {
+    "name": "bsctoken",
+    "url": "https://bscscan.com/",
+    "api": "https://api.bscscan.com/api",
+    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
+  },
+  {
+    "name": "sol",
+    "url": "https://explorer.solana.com/",
+    "api": "https://api.mainnet-beta.solana.com",
+    "priority": 1,
+    "ws": "wss://api.mainnet-beta.solana.com"
+  }
+]
