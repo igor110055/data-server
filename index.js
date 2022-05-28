@@ -177,7 +177,7 @@ function getMNInfo(callback){
         }).length;
         data.firstpayment = Math.floor(data.totalmn * 2.6);
         curlData(user, password, port, "getinfo", [], function(err2, info){
-          if(!err2){
+          if(err2){
             callback(data);
           } else {
             data.circulating = calculateSupplyNew(info.result.result.blocks);
