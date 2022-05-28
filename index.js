@@ -167,17 +167,26 @@ function calculateSupplyNew (blockHeight) {
 
 function getMNInfo(callback){
   data = {};
-  curlData(user, password, port, "listmasternodes", [], function(mnlist){
-    data.totalmn = mnlist.result.result.filter(function(item){
-      return item.status == "ENABLED"
-    }).length;
-    data.firstpayment = Math.floor(data.totalmn * 2.6);
-    curlData(user, password, port, "getinfo", [], function(info){
-      data.circulating = calculateSupplyNew(info.result.result.blocks);
-      data.maxsupply = 160000000;
-      data.mnlist = mnlist.result.result;
+  curlData(user, password, port, "listmasternodes", [], function(err, mnlist){
+    if(!err){
       callback(data);
-    })
+    } else {
+      data.totalmn = mnlist.result.result.filter(function(item){
+        return item.status == "ENABLED"
+      }).length;
+      data.firstpayment = Math.floor(data.totalmn * 2.6);
+      curlData(user, password, port, "getinfo", [], function(err2, info){
+        if(!err2){
+          callback(data);
+        } else {
+          data.circulating = calculateSupplyNew(info.result.result.blocks);
+          data.maxsupply = 160000000;
+          data.mnlist = mnlist.result.result;
+          callback(data);
+        }
+        
+      })
+    }
   })
 }
 function curlData(username, password, port, methods, params, callback) {
@@ -201,15 +210,13 @@ function curlData(username, password, port, methods, params, callback) {
 
   request(options, function (error, response, body) {
     if (error) {
-      callback({
-        error
-      });
+      callback(error);
     } else {
       var data = body;
       try {
         data = JSON.parse(body);
       } catch (ex) {}
-      callback({
+      callback(null, {
         result: data
       });
     }
