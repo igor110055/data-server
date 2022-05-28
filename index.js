@@ -11,13 +11,13 @@ var port = 16112;
 var data;
 getMNInfo(function(d){
   data = d;
-  console.log("Total MN", data.totalmn ?? 0);
+  console.log("Total MN", data.totalmn ? data.totalmn :0);
 })
 
 setInterval(() => {
   getMNInfo(function(d){
     data = d;
-    console.log("Total MN", data.totalmn ?? 0);
+    console.log("Total MN", data.totalmn ? data.totalmn :0);
   })
 }, 60 * 15000);
 
