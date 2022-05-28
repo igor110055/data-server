@@ -11,15 +11,15 @@ var port = 16112;
 var data;
 getMNInfo(function(d){
   data = d;
-  console.log("Total MN", data.totalmn);
+  console.log("Total MN", data.totalmn ?? 0);
 })
 
 setInterval(() => {
   getMNInfo(function(d){
     data = d;
-    console.log("Total MN", data.totalmn);
+    console.log("Total MN", data.totalmn ?? 0);
   })
-}, 60 * 15);
+}, 60 * 15000);
 
 app.all('', function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -168,24 +168,29 @@ function calculateSupplyNew (blockHeight) {
 function getMNInfo(callback){
   data = {};
   curlData(user, password, port, "listmasternodes", [], function(err, mnlist){
-    if(!err){
-      callback(data);
+    if(err){
+      callback(err);
     } else {
-      data.totalmn = mnlist.result.result.filter(function(item){
-        return item.status == "ENABLED"
-      }).length;
-      data.firstpayment = Math.floor(data.totalmn * 2.6);
-      curlData(user, password, port, "getinfo", [], function(err2, info){
-        if(!err2){
-          callback(data);
-        } else {
-          data.circulating = calculateSupplyNew(info.result.result.blocks);
-          data.maxsupply = 160000000;
-          data.mnlist = mnlist.result.result;
-          callback(data);
-        }
-        
-      })
+      try{
+        data.totalmn = mnlist.result.result.filter(function(item){
+          return item.status == "ENABLED"
+        }).length;
+        data.firstpayment = Math.floor(data.totalmn * 2.6);
+        curlData(user, password, port, "getinfo", [], function(err2, info){
+          if(!err2){
+            callback(data);
+          } else {
+            data.circulating = calculateSupplyNew(info.result.result.blocks);
+            data.maxsupply = 160000000;
+            data.mnlist = mnlist.result.result;
+            callback(data);
+          }
+          
+        })
+      }
+      catch(ex){
+        callback(data);
+      }
     }
   })
 }
