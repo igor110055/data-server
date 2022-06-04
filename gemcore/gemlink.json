@@ -110,7 +110,7 @@
       "detail": "New exchange with Gemlink markets , without KYC",
       "type": "popup",
       "name": "New exchange without KYC",
-      "enabled": false
+      "enabled": true
     }
   ],
   "banner": [
@@ -119,9 +119,18 @@
       "redirectUrl": "https://www.exbitron.com/trading/glinkusdt",
       "title": "New exchange with Gemlink markets , without KYC",
       "detail": "New exchange with Gemlink markets , without KYC",
-      "type": "popup",
+      "type": "banner",
       "name": "New exchange without KYC",
-      "enabled": false
+      "enabled": true
+    },
+    {
+      "imgUrl": "https://i.imgur.com/ab2pTFQ.png",
+      "redirectUrl": "https://gemlink.org/voting",
+      "title": "Add coin to light wallet",
+      "detail": "Add coin to light wallet",
+      "type": "banner",
+      "name": "Add coin to light wallet",
+      "enabled": true
     }
   ],
   "nodes": [],
