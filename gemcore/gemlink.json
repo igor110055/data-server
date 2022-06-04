@@ -109,7 +109,8 @@
       "title": "New exchange with Gemlink markets , without KYC",
       "detail": "New exchange with Gemlink markets , without KYC",
       "type": "popup",
-      "name": "New exchange without KYC"
+      "name": "New exchange without KYC",
+      "enabled": false
     }
   ],
   "banner": [
@@ -119,7 +120,8 @@
       "title": "New exchange with Gemlink markets , without KYC",
       "detail": "New exchange with Gemlink markets , without KYC",
       "type": "popup",
-      "name": "New exchange without KYC"
+      "name": "New exchange without KYC",
+      "enabled": false
     }
   ],
   "nodes": [],
