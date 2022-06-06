@@ -9,7 +9,7 @@
   "languagechecksum": "4B96CC5D168C314BDD7EC7E47678BB1E",
   "version": {
     "url": "https://github.com/gemlink/GemCore/releases/download/latest",
-    "walletversion": "0.1.0",
-    "detail": "What's new:\n- Add send from public address option\n- Fix start masternode issue\n- Select outputs from the list to config mn easier (in masternode config page)\n- Increase wallet performance"
+    "walletversion": "0.1.4",
+    "detail": "What's new:\nFix bugs:\n1. Backup wallet issue\n\nFeatures:\n1. Add space between thousands depends on locale\n2. Change splash screen animation\n3. Add current price for Gemlink\n4. Delete \"Rank\" in masternode list, and add \"Last paid\" in hours\n5. Add total active mn, stopped MN to local mn part\n6. Add tooltips to buttons in settings page\n7. Add cancel option for reindex/rescan button in settings page\n8. Add banner in home screen to display important info"
   }
 }
