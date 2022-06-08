@@ -1,5 +1,12 @@
 [
   {
+    "name": "glink",
+    "url": "https://explorer.gemlink.org/",
+    "api": "https://explorer.gemlink.org/api",
+    "type": 0,
+    "priority": 1
+  },
+  {
     "name": "ltc",
     "url": "https://ltc1.trezor.io/",
     "api": "https://ltc1.trezor.io/api",
@@ -91,6 +98,18 @@
   },
   {
     "name": "bsctoken",
+    "url": "https://bscscan.com/",
+    "api": "https://api.bscscan.com/api",
+    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
+  },
+  {
+    "name": "bnb",
+    "url": "https://bscscan.com/",
+    "api": "https://api.bscscan.com/api",
+    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
+  },
+  {
+    "name": "bnbtoken",
     "url": "https://bscscan.com/",
     "api": "https://api.bscscan.com/api",
     "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
