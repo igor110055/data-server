@@ -85,33 +85,15 @@
     "api_key": "XRAQMDEPMDU4Z2WNTPS7QX1NIG565RGPQG"
   },
   {
-    "name": "ethtoken",
-    "url": "https://etherscan.io/",
-    "api": "https://api.etherscan.io/api",
-    "api_key": "XRAQMDEPMDU4Z2WNTPS7QX1NIG565RGPQG"
-  },
-  {
-    "name": "bsc",
-    "url": "https://bscscan.com/",
-    "api": "https://api.bscscan.com/api",
-    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
-  },
-  {
-    "name": "bsctoken",
-    "url": "https://bscscan.com/",
-    "api": "https://api.bscscan.com/api",
-    "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
-  },
-  {
     "name": "bnb",
     "url": "https://bscscan.com/",
     "api": "https://api.bscscan.com/api",
     "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
   },
   {
-    "name": "bnbtoken",
-    "url": "https://bscscan.com/",
-    "api": "https://api.bscscan.com/api",
+    "name": "bnbtestnet",
+    "url": "https://testnet.bscscan.com/",
+    "api": "https://api-testnet.bscscan.com/api",
     "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
   },
   {
