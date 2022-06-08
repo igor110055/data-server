@@ -45,6 +45,8 @@ var coinsList = {}
 var coinsListBeta = {}
 var version = {}
 var versionBeta = {}
+var fees;
+var feesBeta;
 if (fs.existsSync("coinlist.json")) {
   coinsList = getJson("coinlist.json");
 }
@@ -57,6 +59,12 @@ if (fs.existsSync("version.json")) {
 }
 if (fs.existsSync("version_beta.json")) {
   versionBeta = getJson("version_beta.json");
+}
+if (fs.existsSync("fees.json")) {
+  fees = getJson("fees.json");
+}
+if (fs.existsSync("fees_beta.json")) {
+  feesBeta = getJson("fees_beta.json");
 }
 
 
@@ -114,6 +122,19 @@ app.get("/gemlink/explorersbeta", (req, res) => { // mongoDB
     res.json(data);
     res.end();
 })
+
+app.get("/gemlink/fees", (req, res) => { // mongoDB
+  var data = getJson("fees.json");
+    res.json(data);
+    res.end();
+})
+
+app.get("/gemlink/feesbeta", (req, res) => { // mongoDB
+  var data = getJson("fees_beta.json");
+    res.json(data);
+    res.end();
+})
+
 
 function getJson(file) {
   try {

@@ -1,0 +1,62 @@
+[
+  {
+    "ticker": "glink",
+    "minFee": 10000,
+    "value": 10000
+  },
+  {
+    "ticker": "btc",
+    "minFee": 15000,
+    "value": 100000
+  },
+  {
+    "ticker": "bch",
+    "minFee": 5000,
+    "value": 50000
+  },
+  {
+    "ticker": "bsv",
+    "minFee": 5000,
+    "value": 50000
+  },
+  {
+    "ticker": "ltc",
+    "minFee": 200000,
+    "value": 35000
+  },
+  {
+    "ticker": "dash",
+    "minFee": 13333,
+    "value": 100000
+  },
+  {
+    "ticker": "zec",
+    "minFee": 10000,
+    "value": 10000
+  },
+  {
+    "ticker": "dgb",
+    "minFee": 500,
+    "value": 20000
+  },
+  {
+    "ticker": "btcz",
+    "minFee": 10000,
+    "value": 10000
+  },
+  {
+    "ticker": "flux",
+    "minFee": 10000,
+    "value": 10000
+  },
+  {
+    "ticker": "zer",
+    "minFee": 10000,
+    "value": 10000
+  },
+  {
+    "ticker": "doge",
+    "minFee": 200000000,
+    "value": 500000
+  }
+]
