@@ -85,6 +85,12 @@
     "api_key": "XRAQMDEPMDU4Z2WNTPS7QX1NIG565RGPQG"
   },
   {
+    "name": "ethtestnet",
+    "url": "https://api-testnet.arbiscan.io/",
+    "api": "https://api-testnet.arbiscan.io/api",
+    "api_key": "59FP7YCJNAP2QQRG9SBUQWFUZKN3B9I1VG"
+  },
+  {
     "name": "bnb",
     "url": "https://bscscan.com/",
     "api": "https://api.bscscan.com/api",
