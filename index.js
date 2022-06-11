@@ -9,6 +9,7 @@ var user = "bitcoin";
 var password = "local321"
 var port = 16112;
 var data;
+var rpc;
 getMNInfo(function(d){
   data = d;
   console.log("Total MN", data.totalmn ? data.totalmn :0);
@@ -134,7 +135,11 @@ app.get("/gemlink/feesbeta", (req, res) => { // mongoDB
     res.json(data);
     res.end();
 })
-
+app.get("/gemlink/rpc", (req, res) => { // mongoDB
+  var data = getJson("rpc.json");
+    res.json(data);
+    res.end();
+})
 
 function getJson(file) {
   try {

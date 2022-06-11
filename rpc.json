@@ -1,0 +1,148 @@
+[
+  {
+    "ticker": "ETH",
+    "url": "https://mainnet.infura.io/v3/4d325a59af81419abad56efe56d65a80",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://eth-mainnet.public.blastapi.io",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://rpc.ankr.com/eth",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://api.mycryptoapi.com/eth",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://api.mycryptoapi.com/eth",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://eth-rpc.gateway.pokt.network",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://main-rpc.linkpool.io",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://main-light.eth.linkpool.io",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://rpc.flashbots.net",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://cloudflare-eth.com",
+    "type": 10
+  },
+  {
+    "ticker": "ETH",
+    "url": "https://ethereumnodelight.app.runonflux.io",
+    "type": 10
+  },
+  {
+    "ticker": "ETHT",
+    "url": "https://rinkeby.arbitrum.io/rpc",
+    "type": 12,
+    "chainId": 421611
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://rpc-bsc.bnb48.club",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed1.defibit.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed2.defibit.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed3.defibit.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed4.defibit.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed1.ninicoin.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed2.ninicoin.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed3.ninicoin.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed4.ninicoin.io",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed.binance.org",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed1.binance.org",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed2.binance.org",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed3.binance.org",
+    "type": 20
+  },
+  {
+    "ticker": "BNB",
+    "url": "https://bsc-dataseed4.binance.org",
+    "type": 20
+  },
+  {
+    "ticker": "BNBT",
+    "url": "https://data-seed-prebsc-1-s1.binance.org:8545",
+    "type": 22
+  },
+  {
+    "ticker": "BNBT",
+    "url": "https://data-seed-prebsc-1-s3.binance.org:8545",
+    "type": 22
+  },
+  {
+    "ticker": "BNBT",
+    "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
+    "type": 22
+  }
+]
