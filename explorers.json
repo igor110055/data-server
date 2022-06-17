@@ -85,13 +85,6 @@
     "type": 1,
     "priority": 1
   },
-  {
-    "name": "eth",
-    "url": "https://etherscan.io/",
-    "api": "https://blockbook-ethereum.tronwallet.me/api",
-    "type": 1,
-    "priority": 2
-  },
 
   {
     "name": "ethtestnet",
