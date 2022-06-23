@@ -144,5 +144,30 @@
     "ticker": "BNBT",
     "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
     "type": 22
+  },
+  {
+    "ticker": "MATIC",
+    "url": "https://rpc.ankr.com/polygon",
+    "type": 80
+  },
+  {
+    "ticker": "MATIC",
+    "url": "https://polygon-rpc.com",
+    "type": 80
+  },
+  {
+    "ticker": "MATIC",
+    "url": "https://rpc-mainnet.matic.quiknode.pro",
+    "type": 80
+  },
+  {
+    "ticker": "MATIC",
+    "url": "https://poly-rpc.gateway.pokt.network",
+    "type": 80
+  },
+  {
+    "ticker": "MATIC",
+    "url": "https://rpc-mainnet.maticvigil.com",
+    "type": 80
   }
 ]
