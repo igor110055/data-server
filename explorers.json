@@ -112,7 +112,7 @@
     "ws": "wss://api.mainnet-beta.solana.com"
   },
   {
-    "name": "polygon",
+    "name": "matic",
     "url": "https://polygonscan.com/",
     "api": "https://polygonscan.com/api",
     "api_key": "E4B2GEUMDYVJK3M7SH8JA8BS7W3ZE4JSMZ"
