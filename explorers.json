@@ -2,6 +2,7 @@
   {
     "name": "glink",
     "url": "https://explorer.gemlink.org/",
+    "tx": "https://explorer.gemlink.org/tx/",
     "api": "https://explorer.gemlink.org/api",
     "type": 0,
     "priority": 1
@@ -9,6 +10,7 @@
   {
     "name": "ltc",
     "url": "https://ltc1.trezor.io/",
+    "tx": "https://ltc1.trezor.io/tx/",
     "api": "https://ltc1.trezor.io/api",
     "type": 1,
     "priority": 1
@@ -16,6 +18,7 @@
   {
     "name": "ltc",
     "url": "https://blockbook-litecoin.binancechain.io/",
+    "tx": "https://blockbook-litecoin.binancechain.io/tx/",
     "api": "https://blockbook-litecoin.binancechain.io/api",
     "type": 1,
     "priority": 2
@@ -23,6 +26,7 @@
   {
     "name": "dash",
     "url": "https://insight.dash.org/insight",
+    "tx": "https://insight.dash.org/insight/tx/",
     "api": "https://insight.dash.org/api",
     "type": 0,
     "priority": 1
@@ -30,6 +34,7 @@
   {
     "name": "zec",
     "url": "https://zec1.trezor.io/",
+    "tx": "https://zec1.trezor.io/tx/",
     "api": "https://zec1.trezor.io/api",
     "type": 1,
     "priority": 1
@@ -37,6 +42,7 @@
   {
     "name": "dgb",
     "url": "https://dgb1.trezor.io/",
+    "tx": "https://dgb1.trezor.io/tx/",
     "api": "https://dgb1.trezor.io/api",
     "type": 1,
     "priority": 1
@@ -44,12 +50,14 @@
   {
     "name": "btcz",
     "url": "https://explorer.btcz.rocks/",
+    "tx": "https://explorer.btcz.rocks/tx/",
     "api": "https://explorer.btcz.rocks/api",
     "type": 0
   },
   {
     "name": "btc",
     "url": "https://btc1.trezor.io/",
+    "tx": "https://btc1.trezor.io/tx/",
     "api": "https://btc1.trezor.io/api",
     "type": 1,
     "priority": 1
@@ -57,30 +65,35 @@
   {
     "name": "bsv",
     "url": "https://bchsvexplorer.com/",
+    "tx": "https://bchsvexplorer.com/tx/",
     "api": "https://bchsvexplorer.com/api",
     "type": 1
   },
   {
     "name": "flux",
     "url": "https://explorer.zel.cash/",
+    "tx": "https://explorer.zel.cash/tx/",
     "api": "https://explorer.zel.cash/api",
     "type": 0
   },
   {
     "name": "zer",
     "url": "https://insight.zerocurrency.io/insight/",
+    "tx": "https://insight.zerocurrency.io/insight/tx/",
     "api": "https://insight.zerocurrency.io/insight-api-zero",
     "type": 0
   },
   {
     "name": "doge",
     "url": "https://doge1.trezor.io/",
+    "tx": "https://doge1.trezor.io/tx/",
     "api": "https://doge1.trezor.io/api",
     "type": 1
   },
   {
     "name": "eth",
     "url": "https://etherscan.io/",
+    "tx": "https://etherscan.io/tx/",
     "api": "https://eth1.trezor.io/api",
     "type": 1,
     "priority": 1
@@ -88,12 +101,14 @@
   {
     "name": "ethtestnet",
     "url": "https://api-testnet.arbiscan.io/",
+    "tx": "https://api-testnet.arbiscan.io/tx/",
     "api": "https://api-testnet.arbiscan.io/api",
     "api_key": "59FP7YCJNAP2QQRG9SBUQWFUZKN3B9I1VG"
   },
   {
     "name": "bnb",
     "url": "https://bscscan.com/",
+    "tx": "https://bscscan.com/tx/",
     "api": "https://bscxplorer.com/api",
     "type": 1,
     "priority": 1
@@ -101,12 +116,14 @@
   {
     "name": "bnbtestnet",
     "url": "https://testnet.bscscan.com/",
+    "tx": "https://testnet.bscscan.com/tx/",
     "api": "https://api-testnet.bscscan.com/api",
     "api_key": "3BC87GJ8HWXH8GCY29UUJC6I62PN5X6WZ1"
   },
   {
     "name": "sol",
     "url": "https://explorer.solana.com/",
+    "tx": "https://explorer.solana.com/tx/",
     "api": "https://api.mainnet-beta.solana.com",
     "priority": 1,
     "ws": "wss://api.mainnet-beta.solana.com"
@@ -114,6 +131,7 @@
   {
     "name": "matic",
     "url": "https://polygonscan.com/",
+    "tx": "https://polygonscan.com/tx/",
     "api": "https://api.polygonscan.com/api",
     "api_key": "E4B2GEUMDYVJK3M7SH8JA8BS7W3ZE4JSMZ"
   }
