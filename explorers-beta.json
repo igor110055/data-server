@@ -63,6 +63,47 @@
     "priority": 1
   },
   {
+    "name": "btc",
+    "url": "https://blockbook.btc.zelcore.io/",
+    "tx": "https://blockbook.btc.zelcore.io/tx/",
+    "api": "https://blockbook.btc.zelcore.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "btc",
+    "url": "https://btc.exan.tech/",
+    "tx": "https://btc.exan.tech/tx/",
+    "api": "https://btc.exan.tech/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "btc",
+    "url": "https://bitcoin.atomicwallet.io/",
+    "tx": "https://bitcoin.atomicwallet.io/tx/",
+    "api": "https://bitcoin.atomicwallet.io/api",
+    "type": 1,
+    "priority": 1
+  },
+  
+  {
+    "name": "tbtc",
+    "url": "https://tbtc1.blockbook.bitaccess.net/",
+    "tx": "https://tbtc1.blockbook.bitaccess.net/tx/",
+    "api": "https://tbtc1.blockbook.bitaccess.net/api",
+    "type": 1,
+    "priority": 1
+  },
+  {
+    "name": "tbtc",
+    "url": "https://btc-local-explorer.sandbox.nash.io/",
+    "tx": "https://btc-local-explorer.sandbox.nash.io/tx/",
+    "api": "https://btc-local-explorer.sandbox.nash.io/api",
+    "type": 1,
+    "priority": 2
+  },
+  {
     "name": "bsv",
     "url": "https://bchsvexplorer.com/",
     "tx": "https://bchsvexplorer.com/tx/",
