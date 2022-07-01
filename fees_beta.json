@@ -10,6 +10,11 @@
     "value": 100000
   },
   {
+    "ticker": "tbtc",
+    "minFee": 15000,
+    "value": 100000
+  },
+  {
     "ticker": "bch",
     "minFee": 5000,
     "value": 50000
