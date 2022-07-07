@@ -169,5 +169,20 @@
     "ticker": "MATIC",
     "url": "https://rpc-mainnet.maticvigil.com",
     "type": 80
+  },
+  {
+    "ticker": "AVAX",
+    "url": "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc",
+    "type": 90
+  },
+  {
+    "ticker": "AVAX",
+    "url": "https://rpc.ankr.com/avalanche",
+    "type": 90
+  },
+  {
+    "ticker": "AVAX",
+    "url": "https://api.avax.network/ext/bc/C/rpc",
+    "type": 90
   }
 ]
