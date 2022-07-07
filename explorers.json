@@ -138,7 +138,6 @@
     "api": "https://api.ravencoin.org/api",
     "type": 0
   },
-  
   {
     "name": "eth",
     "url": "https://etherscan.io/",
