@@ -132,6 +132,14 @@
     "type": 1
   },
   {
+    "name": "rvn",
+    "url": "https://api.ravencoin.org/",
+    "tx": "https://api.ravencoin.org/tx/",
+    "api": "https://api.ravencoin.org/api",
+    "type": 0
+  },
+  
+  {
     "name": "eth",
     "url": "https://etherscan.io/",
     "tx": "https://etherscan.io/tx/",

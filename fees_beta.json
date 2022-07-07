@@ -63,5 +63,10 @@
     "ticker": "doge",
     "minFee": 200000000,
     "value": 500000
+  },
+  {
+    "ticker": "rvn",
+    "minFee": 10000,
+    "value": 10000
   }
 ]
