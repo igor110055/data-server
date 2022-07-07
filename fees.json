@@ -68,5 +68,10 @@
     "ticker": "rvn",
     "minFee": 300000,
     "value": 300000
+  },
+  {
+    "ticker": "rtm",
+    "minFee": 10000,
+    "value": 10000
   }
 ]

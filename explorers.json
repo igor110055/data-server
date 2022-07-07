@@ -139,6 +139,13 @@
     "type": 0
   },
   {
+    "name": "rtm",
+    "url": "https://explorer.raptoreum.com/",
+    "tx": "https://explorer.raptoreum.com/tx/",
+    "api": "https://explorer.raptoreum.com/api",
+    "type": 0
+  },
+  {
     "name": "eth",
     "url": "https://etherscan.io/",
     "tx": "https://etherscan.io/tx/",
