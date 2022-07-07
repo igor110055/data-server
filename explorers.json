@@ -189,5 +189,12 @@
     "tx": "https://snowtrace.io/tx/",
     "api": "https://api.snowtrace.io/api",
     "api_key": "QVBNEYXM2JT41F7FVHWHKPNAN786UXW36E"
+  },
+  {
+    "name": "matic",
+    "url": "https://polygonscan.com/",
+    "tx": "https://polygonscan.com/tx/",
+    "api": "https://api.polygonscan.com/api",
+    "api_key": "E4B2GEUMDYVJK3M7SH8JA8BS7W3ZE4JSMZ"
   }
 ]
